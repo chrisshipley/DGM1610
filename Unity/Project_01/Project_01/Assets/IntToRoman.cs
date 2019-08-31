@@ -11,17 +11,25 @@ public class IntToRoman : MonoBehaviour
 
         for (int i = 0; i < 10; ++i)
         {
-            int x = (int)Random.Range(0, 3999);
-            Debug.Log("The roman numeral version of \"" + x + "\" is: \"" + ToRoman(x) + "\"");
+            int x = (int)Random.Range(0, 3999); // Grab a random float between the ranges of "0" andf "3999". Cast to int value
+            Debug.Log("The roman numeral version of \"" + x + "\" is: \"" + ToRoman(x) + "\""); // Print the conversion report to the debug console
         }
 	}
 
+    /// <summary>
+    /// Generates a string value to denote the roman numeral version of a given number
+    /// </summary>
+    /// <param name="x">The int value to be denoted</param>
+    /// <returns>The roman numeral string</returns>
     private string ToRoman(int x)
     {
-        string roman = "";
+        string roman = ""; // Start string
 
-        while (x > 0)
+        while (x > 0) // Loop until the value has reached 0
         {
+            /* Each iteration through the loop will check for the largest token that can be subtracted from the current
+             * number. When the largest token is found, the token will be added to the end of the string and its value
+             * will be subtracted from the number. */
             if (x - 1000 >= 0)
             {
                 roman += "M";
@@ -82,7 +90,7 @@ public class IntToRoman : MonoBehaviour
                 roman += "I";
                 x -= 1;
             }
-        }
+        } // Loop until the value has reached 0
 
         return roman;
     }
