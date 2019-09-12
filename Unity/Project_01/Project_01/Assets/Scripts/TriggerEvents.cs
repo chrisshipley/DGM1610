@@ -9,6 +9,6 @@ public class TriggerEvents : MonoBehaviour
     {
         triggerEvent.Invoke();
 
-
+        
     } 
 }
