@@ -64,6 +64,7 @@
     <Compile Include="Assets\Scripts\DogClass.cs" />
     <Compile Include="Assets\Scripts\FirstClass.cs" />
     <Compile Include="Assets\Scripts\FloatData.cs" />
+    <Compile Include="Assets\Scripts\Movement.cs" />
     <Compile Include="Assets\Scripts\ParticleController.cs" />
     <Compile Include="Assets\Scripts\Side\IntToRoman.cs" />
     <Compile Include="Assets\Scripts\Side\Inventory.cs" />
