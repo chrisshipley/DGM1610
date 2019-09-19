@@ -2,35 +2,46 @@
 using System.Collections.Generic;
 using UnityEngine;
 
+[RequireComponent(typeof(CharacterController))]
+
 public class Movement : MonoBehaviour
 {
-    public float moveSpeed = 4f;
-    public float gravity = -3f;
-    public float jumpSpeed = 25f;
+    public float moveSpeed = 6f;
+    public float gravity = 1.5f;
+    public float jumpSpeed = 22f;
+    private CharacterController controller;
     private Vector3 position;
-    public CharacterController controller;
+
+    private int jumps = 0;
+    private int maxJumps = 2;
+
+    private void Start()
+    {
+        controller = GetComponent<CharacterController>();
+    }
 
     // Update is called once per frame
     void Update()
     {
         position.x = moveSpeed * Input.GetAxis("Horizontal");
 
-        if (!controller.isGrounded)
+        if (Input.GetButtonDown("Jump") && (controller.isGrounded || jumps < maxJumps))
         {
-            position.y += gravity;
+            ++jumps;
+            position.y = jumpSpeed;
+        }
+        else if (!controller.isGrounded)
+        {
+            position.y -= gravity;
         }
         else
         {
             position.y = 0;
+            jumps = 0;
         }
-        
-        if (Input.GetButtonDown("Jump") && controller.isGrounded)
-        {
-            position.y = jumpSpeed;
-        }
-        //position.y *= Time.deltaTime * Input.GetAxis("Vertical");
-        controller.Move(position * Time.deltaTime);
 
+        
+
+        controller.Move(position * Time.deltaTime);
     }
-    
 }
