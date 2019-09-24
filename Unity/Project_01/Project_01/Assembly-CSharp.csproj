@@ -64,6 +64,8 @@
     <Compile Include="Assets\Scripts\DogClass.cs" />
     <Compile Include="Assets\Scripts\FirstClass.cs" />
     <Compile Include="Assets\Scripts\FloatData.cs" />
+    <Compile Include="Assets\Scripts\GetFruit.cs" />
+    <Compile Include="Assets\Scripts\IfStatements.cs" />
     <Compile Include="Assets\Scripts\Movement.cs" />
     <Compile Include="Assets\Scripts\MovingPlatform.cs" />
     <Compile Include="Assets\Scripts\ParticleController.cs" />
