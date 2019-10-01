@@ -67,6 +67,7 @@
     <Compile Include="Assets\Scripts\Functions.cs" />
     <Compile Include="Assets\Scripts\GetFruit.cs" />
     <Compile Include="Assets\Scripts\IfStatements.cs" />
+    <Compile Include="Assets\Scripts\IntData.cs" />
     <Compile Include="Assets\Scripts\Movement.cs" />
     <Compile Include="Assets\Scripts\ParticleController.cs" />
     <Compile Include="Assets\Scripts\Side\IntToRoman.cs" />
@@ -75,6 +76,7 @@
     <Compile Include="Assets\Scripts\Side\Unit.cs" />
     <Compile Include="Assets\Scripts\StartScript.cs" />
     <Compile Include="Assets\Scripts\TriggerEvents.cs" />
+    <Compile Include="Assets\Scripts\UITextController.cs" />
     <Compile Include="Assets\Scripts\VarsClass.cs" />
     <Reference Include="Unity.TextMeshPro.Editor">
       <HintPath>C:/Users/10771600/Documents/Repo/DGM1610/Unity/Project_01/Project_01/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
