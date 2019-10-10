@@ -16,9 +16,10 @@ public class UITextController : MonoBehaviour
         startEvent.Invoke();
     }
 
-    // Update is called once per frame
     public void UpdateText(IntData data)
     {
         textLable.text = data.value.ToString();
     }
+
+
 }

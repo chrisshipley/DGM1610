@@ -66,6 +66,10 @@
     <Compile Include="Assets\Scripts\FloatData.cs" />
     <Compile Include="Assets\Scripts\Functions.cs" />
     <Compile Include="Assets\Scripts\GameArtData.cs" />
+    <Compile Include="Assets\Scripts\GameArtData2\ClothesData.cs" />
+    <Compile Include="Assets\Scripts\GameArtData2\GameArtData2.cs" />
+    <Compile Include="Assets\Scripts\GameArtData2\PlayerData2.cs" />
+    <Compile Include="Assets\Scripts\GameArtData2\WeaponData2.cs" />
     <Compile Include="Assets\Scripts\GetFruit.cs" />
     <Compile Include="Assets\Scripts\IfStatements.cs" />
     <Compile Include="Assets\Scripts\Instancer.cs" />
@@ -79,6 +83,7 @@
     <Compile Include="Assets\Scripts\Side\Unit.cs" />
     <Compile Include="Assets\Scripts\StartScript.cs" />
     <Compile Include="Assets\Scripts\TriggerEvents.cs" />
+    <Compile Include="Assets\Scripts\UIHealthBarController.cs" />
     <Compile Include="Assets\Scripts\UITextController.cs" />
     <Compile Include="Assets\Scripts\VarsClass.cs" />
     <Compile Include="Assets\Scripts\WeaponData.cs" />
