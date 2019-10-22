@@ -6,5 +6,5 @@ using UnityEngine;
 
 public class WeaponData2 : GameArtData2
 {
-
+    public int powerLevel = 10;
 }

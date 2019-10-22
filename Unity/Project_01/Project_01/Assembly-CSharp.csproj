@@ -66,6 +66,7 @@
     <Compile Include="Assets\Scripts\FirstClass.cs" />
     <Compile Include="Assets\Scripts\FloatData.cs" />
     <Compile Include="Assets\Scripts\Functions.cs" />
+    <Compile Include="Assets\Scripts\GameArtCollection.cs" />
     <Compile Include="Assets\Scripts\GameArtData2\ClothesData.cs" />
     <Compile Include="Assets\Scripts\GameArtData2\GameArtData2.cs" />
     <Compile Include="Assets\Scripts\GameArtData2\PlayerData2.cs" />
@@ -84,6 +85,9 @@
     <Compile Include="Assets\Scripts\UIHealthBarController.cs" />
     <Compile Include="Assets\Scripts\UITextController.cs" />
     <Compile Include="Assets\Scripts\VarsClass.cs" />
+    <Reference Include="Cinemachine">
+      <HintPath>C:/Users/10771600/Documents/Repo/DGM1610/Unity/Project_01/Project_01/Library/ScriptAssemblies/Cinemachine.dll</HintPath>
+    </Reference>
     <Reference Include="Unity.TextMeshPro.Editor">
       <HintPath>C:/Users/10771600/Documents/Repo/DGM1610/Unity/Project_01/Project_01/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
     </Reference>
@@ -93,17 +97,14 @@
     <Reference Include="Unity.CollabProxy.Editor">
       <HintPath>C:/Users/10771600/Documents/Repo/DGM1610/Unity/Project_01/Project_01/Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll</HintPath>
     </Reference>
+    <Reference Include="com.unity.cinemachine.editor">
+      <HintPath>C:/Users/10771600/Documents/Repo/DGM1610/Unity/Project_01/Project_01/Library/ScriptAssemblies/com.unity.cinemachine.editor.dll</HintPath>
+    </Reference>
     <Reference Include="Unity.TextMeshPro">
       <HintPath>C:/Users/10771600/Documents/Repo/DGM1610/Unity/Project_01/Project_01/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Analytics.DataPrivacy">
       <HintPath>C:/Users/10771600/Documents/Repo/DGM1610/Unity/Project_01/Project_01/Library/ScriptAssemblies/Unity.Analytics.DataPrivacy.dll</HintPath>
-    </Reference>
-    <Reference Include="Cinemachine">
-      <HintPath>C:/Users/10771600/Documents/Repo/DGM1610/Unity/Project_01/Project_01/Library/ScriptAssemblies/Cinemachine.dll</HintPath>
-    </Reference>
-    <Reference Include="com.unity.cinemachine.editor">
-      <HintPath>C:/Users/10771600/Documents/Repo/DGM1610/Unity/Project_01/Project_01/Library/ScriptAssemblies/com.unity.cinemachine.editor.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.AIModule">
       <HintPath>C:/Program Files/Unity/Hub/Editor/2018.3.5f1/Editor/Data/Managed/UnityEngine/UnityEngine.AIModule.dll</HintPath>
