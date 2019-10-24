@@ -5,19 +5,27 @@ using UnityEngine;
 [CreateAssetMenu]
 public class GameArtCollection : ScriptableObject
 {
-    public List<GameArtData2> collectionList;
+    public List<GameArtData2> gameArtList;
 
 
     public void AddObject(GameArtData2 temp)
     {
-        collectionList.Add(temp);
+        if (!ContainsObject(temp))
+        {
+            gameArtList.Add(temp);
+        }
     }
 
     public void RemoveObject(GameArtData2 temp)
     {
-        if (collectionList.Contains(temp))
+        if (gameArtList.Contains(temp))
         {
-            collectionList.Remove(temp);
+            gameArtList.Remove(temp);
         }
+    }
+
+    public bool ContainsObject(GameArtData2 temp)
+    {
+        return gameArtList.Contains(temp);
     }
 }

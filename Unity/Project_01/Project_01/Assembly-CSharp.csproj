@@ -74,6 +74,7 @@
     <Compile Include="Assets\Scripts\GetFruit.cs" />
     <Compile Include="Assets\Scripts\IfStatements.cs" />
     <Compile Include="Assets\Scripts\IntData.cs" />
+    <Compile Include="Assets\Scripts\Lists.cs" />
     <Compile Include="Assets\Scripts\Movement.cs" />
     <Compile Include="Assets\Scripts\ParticleController.cs" />
     <Compile Include="Assets\Scripts\Side\IntToRoman.cs" />
