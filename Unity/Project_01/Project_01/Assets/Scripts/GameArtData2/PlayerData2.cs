@@ -8,6 +8,7 @@ using UnityEngine.Events;
 public class PlayerData2 : GameArtData2
 {
     public UnityAction<GameObject> instanceAction;
+    public UnityEvent onRunEvent;
 
     public FloatData health;
     public List<WeaponData2> weapons;
@@ -27,5 +28,10 @@ public class PlayerData2 : GameArtData2
         health.minValue = 0.0f;
 
         instanceAction(newPlayer);
+    }
+
+    public void Run()
+    {
+        onRunEvent.Invoke();
     }
 }
