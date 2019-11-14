@@ -64,6 +64,7 @@
     <Compile Include="Assets\Scripts\AI\AINav.cs" />
     <Compile Include="Assets\Scripts\CatClass.cs" />
     <Compile Include="Assets\Scripts\CineMachineController.cs" />
+    <Compile Include="Assets\Scripts\CoroutineClass.cs" />
     <Compile Include="Assets\Scripts\Debugger.cs" />
     <Compile Include="Assets\Scripts\Debuggers\DebuggerHandler.cs" />
     <Compile Include="Assets\Scripts\DogClass.cs" />
@@ -83,6 +84,8 @@
     <Compile Include="Assets\Scripts\MouseEvents.cs" />
     <Compile Include="Assets\Scripts\Movement.cs" />
     <Compile Include="Assets\Scripts\ParticleController.cs" />
+    <Compile Include="Assets\Scripts\Poison\AntidoteScript.cs" />
+    <Compile Include="Assets\Scripts\Poison\PoisonScript.cs" />
     <Compile Include="Assets\Scripts\Side\IntToRoman.cs" />
     <Compile Include="Assets\Scripts\Side\Inventory.cs" />
     <Compile Include="Assets\Scripts\Side\Item.cs" />
