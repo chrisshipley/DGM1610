@@ -62,6 +62,7 @@
   <ItemGroup>
     <Compile Include="Assets\Resources\Players\PlayerHandler.cs" />
     <Compile Include="Assets\Scripts\AI\AINav.cs" />
+    <Compile Include="Assets\Scripts\ButtonInput.cs" />
     <Compile Include="Assets\Scripts\CatClass.cs" />
     <Compile Include="Assets\Scripts\CineMachineController.cs" />
     <Compile Include="Assets\Scripts\CoroutineClass.cs" />
