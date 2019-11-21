@@ -92,6 +92,7 @@
     <Compile Include="Assets\Scripts\Side\Item.cs" />
     <Compile Include="Assets\Scripts\Side\Unit.cs" />
     <Compile Include="Assets\Scripts\StartScript.cs" />
+    <Compile Include="Assets\Scripts\StatesBehavior.cs" />
     <Compile Include="Assets\Scripts\TriggerEvents.cs" />
     <Compile Include="Assets\Scripts\UIHealthBarController.cs" />
     <Compile Include="Assets\Scripts\UITextController.cs" />

@@ -5,21 +5,14 @@ using UnityEngine;
 
 public class Debugger : ScriptableObject
 {
-    private bool debugging = false;
 
     public void OnDebug(string msg)
     {
-        if (debugging)
-        {
-            Debug.Log(msg);
-        }
+        Debug.Log(msg);
     }
 
     public void OnDebug()
     {
-        if (debugging)
-        {
-            Debug.Log(name);
-        }
+        Debug.Log(name);
     }
 }
