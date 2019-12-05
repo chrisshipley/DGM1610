@@ -27,7 +27,7 @@ public class PlayerData2 : GameArtData2
         health.maxValue = startHealth;
         health.minValue = 0.0f;
 
-        instanceAction(newPlayer);
+        //instanceAction(newPlayer);
     }
 
     public void Run()

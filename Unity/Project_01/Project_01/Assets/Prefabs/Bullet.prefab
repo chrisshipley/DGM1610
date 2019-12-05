@@ -41,7 +41,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c0ef0b89821ba6044a03f5560372db87, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  forces: {fileID: 11400000, guid: 1cfe8008c1298344f8162eb1f21e05a0, type: 2}
+  forceDirection: {fileID: 11400000, guid: 1cfe8008c1298344f8162eb1f21e05a0, type: 2}
+  force: 3
 --- !u!1001 &916367259801345706
 PrefabInstance:
   m_ObjectHideFlags: 0
