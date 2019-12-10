@@ -12,8 +12,6 @@ public class PlayerData2 : GameArtData2
 
     public FloatData health;
     public List<WeaponData2> weapons;
-    public ClothesData shirt;
-    public ClothesData pants;
 
     private float startHealth = 10.0f;
 

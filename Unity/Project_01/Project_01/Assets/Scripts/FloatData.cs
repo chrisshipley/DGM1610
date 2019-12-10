@@ -20,4 +20,9 @@ public class FloatData : ScriptableObject
             value = minValue;
         }
     }
+
+    public void SetValue(float amount)
+    {
+        value = amount;
+    }
 }
